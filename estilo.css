@@ -1,0 +1,215 @@
+@media all and (max-width: 769px) {
+    #menu {
+        visibility: hidden;
+    } 
+
+    .coluna, .dois, .tres, .quatro {
+        float: none;
+        display: block;   
+        padding: 0;
+         width: 100%;
+         margin: 10px auto;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo {
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+ }
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color:white;
+    color: black;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+section {
+    padding: 20px;
+    float: left;
+}
+
+#logo {
+    width: 96px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+ }
+
+#menu {
+ 
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 5%;
+}
+
+li {
+  float: left;  
+  padding: 20 10 20 10; 
+}
+
+a {
+    color: black;
+    padding: 10px 10px 10px 10px ;
+}
+
+li:hover {
+    background-color: #01aaea
+}
+
+
+h3 {
+    color: black;
+}
+#imagem_fundo {
+    background: url("img/pexels-luizclas-556669.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo {
+    color: white;
+    padding-top: 10%;
+    font-size: 50px;
+    font-family: 'Noto Serif', serif;
+    
+}
+
+#subtitulo {
+    color: white ;
+    font-size: 30px;
+    padding-left: 15%;
+    padding-right: 20%;
+    hr align="center" width="80%"
+    font-family: 'Noto Serif', serif;
+}
+
+.destaque {
+    background-color: white;
+    padding-top: 1px;
+}
+
+.coluna {   
+    float: left;
+    padding:0 5%;
+    position: relative;
+    font-size: ;
+
+}
+
+.dois {
+    width: 40%;
+
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+#obj {
+    text-align: center;
+}
+
+.imeco {
+    width: 500px;
+    border: black solid 20px;
+}
+
+.tom {
+    background-color: pink;
+    text-align: left;
+    padding-left: 17%;
+}
+
+.icone {
+    width: 100px;
+    -padding-right: 50%;
+    }
+
+    .icone1 {
+        width: 130px;
+        -padding-right: 60%;
+    }
+
+    .icone2 {
+        width: 90px;
+        -padding-right: 33%;
+    }
+
+    .icone3 {
+        width: 90px;
+        -padding-right: 45%;
+    }
+
+    .icone4 {
+        width: 110px;
+        -padding-right: 40%;
+    }
+
+    .icone5 {
+        width: 100px;
+        -padding-right: 35%;
+    }
+    
+    .icone6 {
+        width: 100px;
+        -padding-right: 50%;
+    }
+
+    .icone7 {
+        width: 100px;
+        -padding-right: 55%;
+    }
+
+    .tres {
+        width: 29%;
+        padding: 0 2%;
+    }
+
+    .quatro {
+        width: 300px;
+        padding-right:  12%;
+        padding-left: 12%;
+    }
+
+    footer {
+        background-color: pink;
+        float: left;
+        width: 100%;
+        height: 30%;
+        color: white;
+    }
+    
+    h3 {
+        background-color: pink;
+    }
+
+    #um {
+        color: black;
+    }
+
+    body {
+        -background-color:  whitesmoke;
+    }
